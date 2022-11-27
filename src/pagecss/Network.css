@@ -1,0 +1,22 @@
+.netowrks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.netowrks .heading{
+    margin-top: 15px;
+}
+.cards {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.cards .card{
+    margin: 15px;
+}
+.expand{
+    color: white;
+    text-decoration: none;
+}

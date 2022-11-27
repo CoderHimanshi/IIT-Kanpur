@@ -1,0 +1,62 @@
+.service .head {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.levels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    padding: 20px;
+}
+
+.oxygen {
+    padding: 20px;
+}
+
+.urine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -230px;
+}
+
+.urbagstatus {
+    border: 3px solid green;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 40px;
+    
+}
+.urbagstatus h1{
+    margin-left: 85px;
+}
+.urbagstatus h2{
+    color: green;
+    margin-left: 40px;
+}
+.btn{
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+.btn2{
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}

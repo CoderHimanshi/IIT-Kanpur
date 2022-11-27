@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@media (min-width:999px){
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../image/bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+ .mainheader {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+    background-color: rgb(6, 6, 51);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+    
+.mainheader .logo {
+    margin-right: 55%;
+}
+.mainheader .help {
+    margin-top: 15px;
+    margin-left:20%;
+}
+.mainheader .logo img {
+    height: 80px;
+    width: 80px;
+    margin-left:auto;
+}
+
+.mainheader button {
+    cursor: pointer;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgb(6, 6, 51);
+    border-radius: 10px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-sec {
+    padding-right: 100px;
+    margin-top:-30px;
+}
+
+main .left-sec {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.left-sec h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 100px;
+}
+
+.left-sec h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.left-sec p {
+    margin-bottom: 20px;
+}
+    
+}
+@media (max-width:998px){
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../image/bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+ .mainheader {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+    background-color: rgb(6, 6, 51);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+    
+ .mainheader .logo {
+    margin-right: 50%;
+ }
+ .mainheader .help {
+    margin-top: 15px;
+    margin-left:15%;
+ }
+ .mainheader .logo img {
+    height: 80px;
+    width: 80px;
+    margin-left:auto;
+ }
+
+ .mainheader button {
+    cursor: pointer;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgb(6, 6, 51);
+    border-radius: 10px;
+ }
+
+ main {
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ main .right-sec {
+    padding-right: 70px;
+ }
+
+ main .left-sec {
+    padding-left: 100px;
+    padding-top: 100px;
+ }
+
+ .left-sec h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 100px;
+ }
+
+ .left-sec h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+ }
+
+ .left-sec p {
+    margin-bottom: 20px;
+ }
+    
+}
+@media (min-width:200px) and (max-width:636px){
+    header {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+ .mainheader {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+         width: 100%;
+    background-color: rgb(6, 6, 51);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+    
+.mainheader .logo {
+    margin-right: 40%;
+}
+.mainheader .help {
+    margin-top: 15px;
+    margin-right:10%;
+}
+.mainheader .logo img {
+    height: 80px;
+    width: 80px;
+    margin-left:40%;
+}
+
+.mainheader button {
+    cursor: pointer;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgb(6, 6, 51);
+    border-radius: 10px;
+}
+
+main {
+    font-size:45% ;
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-sec {
+    padding-right: 70px;
+    display: none;
+}
+
+main .left-sec {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.left-sec h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 100px;
+}
+
+.left-sec h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.left-sec p {
+    margin-bottom: 20px;
+}
+
+}

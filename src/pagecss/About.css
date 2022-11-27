@@ -1,0 +1,23 @@
+
+.about{
+    padding-top: 15px;
+}
+.aboutus .mainheader{
+    background: #d6f7f9;
+}
+.about{
+    width: 100%;
+    line-height: 50px;
+    height: fit-content;
+    background-color: #d6f7f9;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width:600px){
+    figure{
+        display:none;
+        
+    }
+
+}
